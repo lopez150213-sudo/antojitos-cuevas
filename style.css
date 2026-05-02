@@ -1,0 +1,87 @@
+body{background-color:#F5DEB3;
+    margin: 0%;
+    padding: 0%;
+
+}
+
+
+.ENCABEZADO{
+    text-align: center;
+}
+
+.logo1{
+    height: 100px;
+    width: 200px;
+     display: block;
+    margin-left: auto; 
+    margin-left: 0;
+    
+}
+
+.id{
+    h1 {
+    transition: color 0.5s ease; /* Esto hará que los colores cambien suavemente en medio segundo */
+}
+}
+
+.Slogan{
+color:black;
+}
+
+.CONTENEDOR-MENU {
+    padding: 20px;
+    max-width: 600px; /* Para que no se estire demasiado en pantallas grandes */
+    margin: 0 auto;   /* Centra todo el menú */
+}
+
+.categoria h3 {
+    font-size: 30px;
+    color: orange; /* El color de tu marca */
+   border-radius: 15px;
+   padding-left: 15px;
+    padding-bottom: 5px;
+    margin-top: 30px;
+    text-transform: uppercase;
+    background-color: #009637;
+  
+    
+}
+
+.frase{
+    text-align: center;
+}
+
+.platillo {
+    display: flex;
+    justify-content: space-between; /* Empuja el nombre a la izquierda y el precio a la derecha */
+    padding: 10px 0;
+    border-bottom: 1px dashed #151515; /* Línea punteada clásica de menú */
+}
+
+.nombre {
+    color: black;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.precio {
+    color: black; /* Verde tipo WhatsApp para que resalte el costo */
+    font-weight: bold;
+}
+
+.pie-pagina{
+    background-color: #2b1d0e;
+    padding: 30px;
+    text-align: center;
+    
+}
+
+.boton-whatsapp{
+    color: #0cf310;
+    margin: 10px;
+}
+.boton-ruta{
+    color: aqua;
+    margin: 10px;
+
+}
