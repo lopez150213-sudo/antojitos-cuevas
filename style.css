@@ -1,21 +1,33 @@
 body{background-color:#F5DEB3;
     margin: 0%;
     padding: 0%;
+    text-align: center;
 
 }
+
 
 
 .ENCABEZADO{
+    padding-top: 20px;
     text-align: center;
 }
 
-.logo1{
-    height: 100px;
-    width: 200px;
-     display: block;
-    margin-left: auto; 
-    margin-left: 0;
-    
+/* Creamos la animación */
+@keyframes lucesBorde {
+    0%   { border-color: red; }
+    25%  { border-color: blue; }
+    50%  { border-color: green; }
+    75%  { border-color: yellow; }
+    100% { border-color: red; }
+}
+
+.imagen-encabezado{
+        
+        width: 300px;
+    border-radius: 15px;
+
+    border: 5px solid;
+    animation: lucesBorde 6s infinite;
 }
 
 .id{
@@ -61,12 +73,13 @@ color:black;
 .nombre {
     color: black;
     font-weight: bold;
-    font-size: 1.1rem;
+    font-size: 0.9rem;
 }
 
 .precio {
     color: black; /* Verde tipo WhatsApp para que resalte el costo */
     font-weight: bold;
+    font-size: 1.0rem;
 }
 
 .pie-pagina{
@@ -85,3 +98,13 @@ color:black;
     margin: 10px;
 
 }
+
+.img-comida{
+    
+    padding-top: 20px;
+    padding-left: 10px;
+    width: 100px;
+    height: 100px;
+
+}
+
